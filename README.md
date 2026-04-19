@@ -7,6 +7,9 @@ A basic python telegram bot.
 
 ## Demo
 
+<img width="1220" height="2712" alt="demo_gif" src="https://github.com/user-attachments/assets/43b73cb8-54f8-4b63-aa55-640454aeb313" />
+<img width="722" height="82" alt="Screenshot" src="https://github.com/user-attachments/assets/73fcdcea-6b6d-4e15-adba-33cd67a43fed" />
+
 <img src="./demo/demo_gif" />
 
 ![Telegram app bot demo](./demo/demo_gif)
