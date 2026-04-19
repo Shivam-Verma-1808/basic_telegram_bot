@@ -1,0 +1,40 @@
+1. Telegram->BotFather->Create new bot
+    reference (https://core.telegram.org/bots/features#creating-a-new-bot)
+
+2. make a new python virtual environment
+    $python -m venv telegram_bot_env
+    $pip show python-telegram-bot
+        Name: python-telegram-bot
+        Version: 20.7
+        Summary: We have made you a wrapper you can't refuse
+        Home-page: https://python-telegram-bot.org/
+        Author: Leandro Toledo
+        Author-email: devs@python-telegram-bot.org
+        License: LGPLv3
+        Location: C:\Users\shiva\telegram_bot_env\Lib\site-packages
+        Requires: httpx
+        Required-by:
+
+3. activate the "telegram_bot_env" python virtual environment
+    $.\telegram_bot_env\Scripts\activate
+
+4. goto your project
+    $cd  <project path>
+
+5. crate a .env file (lets say "telegram_bot_tokken_keys.env") to store your bot's token
+    $pip install python-dotenv <-------for managing telegram bot token
+
+6. copy the generated bot token to .env
+7. add .env file to .gitignore
+    .gitignore <------------for ignoring .env 
+
+8.install python pkg "python-telegram-bot" to communicate with telegram
+    $pip install python-telegram-bot==20.7
+    $python.exe -m pip install --upgrade pip
+
+9. execute
+    $python ./telegram_bot.py
+
+    Loaded BOT_TOKEN: 81...zc
+    Bot is running... (Polling mode)
+    Recieved user_text:Hi
